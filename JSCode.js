@@ -97,7 +97,7 @@ function loadAPI3() {
         .then(Response => Response.json())
         .then(json => {
             let imgAPI3 = document.getElementsByClassName("imgAPI3")[0]
-            imgAPI3.src = `pic/dice-n${json.dice[0].value}.jpg`
+            imgAPI3.src = `./pic/dice-n${json.dice[0].value}.jpg`
         })
     let apiBorders = document.getElementsByClassName("apiBorder")
     apiBorders[0].style.display = "none"
