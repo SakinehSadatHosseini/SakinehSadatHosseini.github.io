@@ -1,0 +1,93 @@
+@font-face {
+    font-family: vazir;
+    src: url(Fonts/Vazir-Black.woff);
+}
+
+body {
+    direction: ltr;
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    margin: 10px
+}
+
+div.btnAPIBorder,
+div.selectedAPIBorder {
+    display: inline-block;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+div.btnAPIBorder {
+    width: 700px;
+}
+
+div.selectedAPIBorder {
+    width: 1200px;
+}
+
+.btnAPI {
+    display: inline-block;
+    font: large vazir;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+    margin: 15px;
+}
+/*********************** API1 Styles ************************/
+div.apiBorder1{
+    display: none;
+    text-align: left;
+}
+
+.txtInfoAPI1 {
+    font: medium vazir;
+    border-radius: 5px;
+    border-color: lightgrey;
+    width: 600px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.lblInfoAPI1 {
+    font: medium vazir;
+    display: inline-block;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+/*********************** API2 Styles ************************/
+div.apiBorder2{
+    display: none;
+    text-align: center;
+    width: 300px;
+    /* height: 300px; */
+}
+
+table.tblAPI2{
+    border-collapse: collapse;
+    border: solid 2px darkgray;
+    table-layout: auto;
+    width: 1160px;
+
+}
+
+/*********************** API3 Styles ************************/
+div.apiBorder3{
+    display: none;
+    text-align: center;
+}
+
+img.imgAPI2{
+    width: 350px;
+    height: 350px;
+}
